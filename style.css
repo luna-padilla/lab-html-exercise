@@ -21,7 +21,7 @@ h1 {
 h3 {
 
   line-height: 1em;
-  
+
 }
 
 
@@ -52,6 +52,8 @@ header {
 
 nav {
   width: 600px;
+  padding-right: 20px;
+  font-weight: 700;
 }
 
 nav ul {
@@ -91,7 +93,7 @@ input {
 
 .logo {
   width: 40px;
-
+  padding-left: 28px;
 }
 
 .header-top {
@@ -101,11 +103,12 @@ input {
   align-items: center;
   border-bottom: 1px solid lightgray;
 }
-.header-top span{
-  font-family:Arial, Helvetica, sans-serif;
+
+.header-top span {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container2 {
+.header-content {
   margin-top: 5px;
   position: relative;
   width: 90%;
@@ -130,7 +133,7 @@ input {
   margin-left: 20px;
 }
 
-.div-enlaces {
+.user-links {
   margin-right: 13px;
   width: 9%;
   display: flex;
@@ -138,8 +141,8 @@ input {
   align-items: center;
 }
 
-.div-enlaces a {
-  text-decoration: none; 
+.user-links a {
+  text-decoration: none;
   color: black;
 
 }
@@ -149,7 +152,7 @@ input {
   padding: 3px 9px;
 }
 
-.section1 {
+.section-build {
   margin-bottom: 88px;
   padding-bottom: 90px;
   height: 600px;
@@ -199,15 +202,18 @@ input {
   background: white;
   padding: 15px 48px;
 }
-#bring .article{
+
+#bring .article {
   text-align: center;
+  width: 59%;
 }
 
 #bring img {
   width: 272px;
   margin-bottom: -47px;
 }
-#bring .container{
+
+#bring .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,7 +221,8 @@ input {
   width: 80%;
   height: 80%;
 }
-.section2 {
+
+.section-bring {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,13 +238,16 @@ input {
   padding: 0 29px;
 }
 
-.section3 {
-  margin-top: 20px;
+.section-features {
+  margin-top: 50px;
   align-items: flex-start;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+ 
   flex-wrap: wrap;
   height: 450px;
+  
 }
 
 .icon {
@@ -265,4 +275,10 @@ input {
   font-family: 'Arimo', sans-serif;
   width: 254px;
   line-height: 1.5;
+}
+.brand-container{
+  padding-left: 30px;
+}
+.brand-name{
+  font-weight:700;
 }
